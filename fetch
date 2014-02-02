@@ -1,0 +1,9 @@
+# Fetch only the latest commits.
+git clone --depth=1 git@github.com:sahat/hackathon-starter.git my-project
+
+cd my-project
+
+# Install NPM dependencies
+npm install
+
+node app.js
